@@ -1,0 +1,76 @@
+/*aplicando directamente a la etiqueta HTML*/
+
+body{ /*define color de fondo en general y margen*/
+    background-color: lightgray;
+    margin: 0;
+}
+header img{ /*Hace que la imagen del header cubra el 100% de la pantalla, resposive*/
+    width: 100%;
+}
+
+/*Menu*/
+nav {
+    /*color de la linea del Menu*/
+    background-color: #333;
+    padding: 2% 4%;
+}
+
+/*color de la letra del Menu*/
+nav a{
+    color: lightgray;
+    text-align: center;
+    padding: 2% 4%;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*color del espacio cuando se selecciona una opcion del menu*/
+nav a:hover{ 
+    background-color: rgb(119, 4, 4);
+   
+    color:lightgray;
+}
+
+section{
+    float: left;
+    width: 40%;
+}
+
+aside{
+    float: right;
+    width: 20%;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#contenedor{
+    background-color: rgb(73, 73, 73);
+    color: lightgray;
+    width: 90%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight:lighter;
+}
+
+#contenedor2{
+    background-color: rgb(102, 16, 16);
+    color: lightgray;
+    width: 90%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight:lighter;
+}
+
+#contenedor3{
+    background-color: rgb(117, 115, 115);
+    color: lightgray;
+    width: 90%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight:lighter;
+}
